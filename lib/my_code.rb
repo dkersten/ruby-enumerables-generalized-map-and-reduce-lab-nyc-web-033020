@@ -11,7 +11,7 @@ def map_to_negativize(source_array)
   new_array
 end
 
-def map.{|i| source_array}
+def source_array.map{|i| (i * (-1))}
   
 end
 
