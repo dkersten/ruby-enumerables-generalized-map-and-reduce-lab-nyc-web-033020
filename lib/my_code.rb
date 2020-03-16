@@ -20,5 +20,6 @@ def reduce(source_array, starting_value=nil)
   
   while i < source_array.length do
     sum = yield(sum, source_array[i])
+    i += 1
   end
 end
