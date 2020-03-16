@@ -10,5 +10,7 @@ def map(source_array)
 end
 
 def reduce(source_array, starting_value=nil)
-  if 
+  if starting_value
+    
+  end
 end
