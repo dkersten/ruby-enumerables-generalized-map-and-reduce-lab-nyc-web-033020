@@ -11,7 +11,7 @@ def map_to_negativize(source_array)
   new_array
 end
 
-def map(source_array){|i| source_array}
+def map.{|i| source_array}
   
 end
 
