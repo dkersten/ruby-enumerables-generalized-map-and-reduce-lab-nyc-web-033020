@@ -8,3 +8,5 @@ def map(souce_array)
     i += 1
   end
 end
+
+map(souce_array) {|i| i * -1}
