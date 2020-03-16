@@ -1,9 +1,9 @@
-def map(souce_array)
+def map(source_array)
   new_array = []
   i = 0
   
-  while i < souce_array.length do 
-    new_array << yield souce_array[i]
+  while i < source_array.length do 
+    new_array << yield (source_array[i])
     
     i += 1
   end
