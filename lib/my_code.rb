@@ -9,4 +9,4 @@ def map(source_array)
   end
 end
 
-map(source_array) {|i| i * -1}
+# map(source_array) {|i| i * -1}
